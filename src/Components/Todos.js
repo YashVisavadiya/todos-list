@@ -48,7 +48,7 @@ const Todos = () => {
               );
             })
           ) : (
-            <p className="text-center fs-4 bg-secondary">No Task To do</p>
+            <h2 className="text-center empty-task">No Task To do</h2>
           )}
         </div>
       </div>
